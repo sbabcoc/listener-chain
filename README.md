@@ -9,7 +9,6 @@ In a Maven project, the preceding file is stored in the `src/main/resources` pac
 
 ![org.testng.ITestNGListener](src/main/resources/META-INF.png "org.testng.ITestNGListener")
 
-Merch Test Engineering Core > Selenium Foundation Test Support > META-INF.png
 Once this file is added to your project, `ListenerChain` will be loaded automatically whenever you run your tests. To request dynamic listener chaining, your test class implements the `ListenerChainable` interface:
 ```java
 package com.nordstrom.example;
