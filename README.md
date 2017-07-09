@@ -2,6 +2,7 @@
 ListenerChain for TestNG
 
 **Selenium Foundation** relies on **TestNG Foundation** for basic flow control. At the heart of it all is `ListenerChain`. To provide consistent behavior, we recommend that you activate `ListenerChain` via the **ServiceLoader** as described in the [TestNG documentation](http://testng.org/doc/documentation-main.html#listeners-service-loader "Specifying listeners with ServiceLoader"):
+`org.testng.ITestNGListener`
 ```
 com.nordstrom.automation.testng.ListenerChain
 ```
