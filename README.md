@@ -1,1 +1,1 @@
-See [Selenium Foundation](https://github.com/Nordstrom/Selenium-Foundation) for the latest version of this TestNG listener.
+See [TestNG Foundation](https://github.com/Nordstrom/TestNG-Foundation) for the latest version of [ListenerChain](https://github.com/Nordstrom/TestNG-Foundation/blob/master/src/main/java/com/nordstrom/automation/testng/ListenerChain.java).
